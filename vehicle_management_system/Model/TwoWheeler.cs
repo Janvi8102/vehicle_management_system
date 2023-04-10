@@ -25,9 +25,9 @@ namespace vehicle_management_system.Model
 
         public override string ToString()
         {
-            return string.Format( "Id: {0}, Name: {1}, Vehicle Type: {2}, Seating Capacity: {3}, Fuel Type: {4}, Fuel Tank Size: {5}, " +
-                "HeadLight Count: {6}, TailLight Count: {7},Indicator Count: {8}, Exhaust Count: {9}, Wheels Count: {10}, NoOfHelmet: {11}\n",
-                Id, Name, VehicleType, SeatingCapacity, FuelType, FuelTankSize, HeadLightCount, TailLightCount, IndicatorCount, ExhaustCount, 
+            return string.Format( "Id: {0}, Name: {1}, Vehicle Type: {2}, Seating Capacity: {3}, Fuel Tank Size: {4}, " +
+                "HeadLight Count: {5}, TailLight Count: {6},Indicator Count: {7}, Exhaust Count: {8}, Wheels Count: {9}, NoOfHelmet: {10}\n",
+                Id, Name, VehicleType, SeatingCapacity, FuelTankSize, HeadLightCount, TailLightCount, IndicatorCount, ExhaustCount, 
                 WheelsCount, NoOfHelmet);
         }
 

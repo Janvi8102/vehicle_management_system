@@ -10,9 +10,8 @@ namespace vehicle_management_system.Model
     {
         public int Id { get; init; }
         public string Name { get; init; }
-        public int VehicleType { get; init; }
+        public VehicleType VehicleType { get; init; }
         public int SeatingCapacity { get; init; }
-        public int FuelType { get; init; }
         public int FuelTankSize { get; init; }
         public int HeadLightCount { get; init; }
         public int TailLightCount { get; init; }

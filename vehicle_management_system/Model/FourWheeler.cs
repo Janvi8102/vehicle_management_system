@@ -8,6 +8,7 @@ namespace vehicle_management_system.Model
 {
     public class FourWheeler : Vehicles
     {
+        public FuelType FuelType { get; init; }
         public int SpeakerCount { get; init; }
         public int WindowCount { get; init; }
         public int SeatBeltCount { get; init; }
@@ -24,7 +25,7 @@ namespace vehicle_management_system.Model
         {
             Console.WriteLine("Stop Driving");
             Console.WriteLine("Engage hand brake");
-           StopVehicle();
+            StopVehicle();
         }
 
         public override string ToString()
